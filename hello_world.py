@@ -119,4 +119,4 @@ def hello_world(model, start_string):
   return (start_string + ''.join(text_generated))
 
 print(hello_world(model, start_string="H"))
-# model.save('saved_model.h5')
+model.save('saved_model.h5')
